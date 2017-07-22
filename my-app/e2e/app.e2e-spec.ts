@@ -1,10 +1,10 @@
-import { MyFirstAppPage } from './app.po';
+import { MyAppPage } from './app.po';
 
-describe('my-first-app App', () => {
-  let page: MyFirstAppPage;
+describe('my-app App', () => {
+  let page: MyAppPage;
 
   beforeEach(() => {
-    page = new MyFirstAppPage();
+    page = new MyAppPage();
   });
 
   it('should display welcome message', () => {
