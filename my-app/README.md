@@ -47,3 +47,11 @@ But now the HeroDetailView is presenting those details.
 * You learned how to make a component accept input.
 * You learned to declare the required application directives in an NgModule. You listed the directives in the @NgModule decorator's declarations array.
 * You learned to bind a parent component to a child component.
+
+## Services
+
+* You created a service class that can be shared by many components.
+* You used the ngOnInit lifecycle hook to get the hero data when the AppComponent activates.
+* You defined the HeroService as a provider for the AppComponent.
+* You created mock hero data and imported them into the service.
+* You designed the service to return a Promise and the component to get the data from the Promise
