@@ -1,24 +1,32 @@
 import {Component} from "@angular/core";
 
 
+// The HEROES array is of type Hero
+const HEROES: Hero[] = [
+  {id: 11, name: 'IronMan'},
+  {id: 12, name: 'Thor'},
+  {id: 13, name: 'Hulk'},
+  {id: 14, name: 'BatMan'},
+  {id: 15, name: 'Wonder Woman'},
+  {id: 16, name: 'AquaMan'},
+  {id: 17, name: 'Spiderman'},
+  {id: 18, name: 'Vision'},
+  {id: 19, name: 'Captain America'},
+  {id: 20, name: 'Black Widow'}
+];
+
+
 @Component({
   selector: 'app-root',
-  // templateUrl: './app.component.html',
+  // template: ` <h1>{{title}}</h1>`
+  // styles: [` h1 { color: red; }`],
   styleUrls: ['./app.component.css'],
-  template: `
-    <h1>{{title}}</h1>
-    <h2>{{hero.name}} details!</h2>
-    <div><label>id: </label>{{hero.id}}</div>
-    <div><label>name: </label>{{hero.name}}</div>
-  `
+  templateUrl: './app.component.html',
 })
 
 export class AppComponent {
   title = 'My Favourite of Heroes';
-  hero: Hero = {
-    id: 1,
-    name: 'Windstorm'
-  };
+  heroes = HEROES;
 }
 
 export class Hero {
