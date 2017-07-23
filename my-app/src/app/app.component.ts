@@ -1,9 +1,6 @@
 import {Component} from "@angular/core";
+import { Hero } from './hero';
 
-export class Hero {
-  id: number;
-  name: string;
-}
 
 // The HEROES array is of type Hero
 const HEROES: Hero[] = [

@@ -31,6 +31,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Here's what we achieved in this page:
 
-The Tour of Heroes app displays a list of selectable heroes.
-You added the ability to select a hero and show the hero's details.
-You learned how to use the built-in directives ngIf and ngFor in a component's template.
+* The Tour of Heroes app displays a list of selectable heroes.
+* You added the ability to select a hero and show the hero's details.
+* You learned how to use the built-in directives ngIf and ngFor in a component's template.
+
+## Multiple Components
+
+What changed?
+
+* As before, whenever a user clicks on a hero name, 
+the hero detail appears below the hero list. 
+But now the HeroDetailView is presenting those details.
+
+* You created a reusable component.
+* You learned how to make a component accept input.
+* You learned to declare the required application directives in an NgModule. You listed the directives in the @NgModule decorator's declarations array.
+* You learned to bind a parent component to a child component.
