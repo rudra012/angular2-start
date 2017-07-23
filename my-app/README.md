@@ -26,3 +26,11 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Master & Details page:
+
+Here's what we achieved in this page:
+
+The Tour of Heroes app displays a list of selectable heroes.
+You added the ability to select a hero and show the hero's details.
+You learned how to use the built-in directives ngIf and ngFor in a component's template.

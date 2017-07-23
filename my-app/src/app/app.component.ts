@@ -1,5 +1,9 @@
 import {Component} from "@angular/core";
 
+export class Hero {
+  id: number;
+  name: string;
+}
 
 // The HEROES array is of type Hero
 const HEROES: Hero[] = [
@@ -27,9 +31,8 @@ const HEROES: Hero[] = [
 export class AppComponent {
   title = 'My Favourite of Heroes';
   heroes = HEROES;
-}
-
-export class Hero {
-  id: number;
-  name: string;
+  selectedHero: Hero;
+  onSelect(hero: Hero): void {
+    this.selectedHero = hero;
+  }
 }
